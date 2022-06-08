@@ -86,7 +86,8 @@ closeSpan.addEventListener('click', () => {
 });
 // close function
 function closeWindow() {
-   window.close();
+  this.close();
+//    window.close();
 }
 
 
